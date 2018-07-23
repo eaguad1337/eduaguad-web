@@ -1,28 +1,54 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Header></Header>
+    <Console />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Console from './components/Console.vue'
+import Header from './components/Header.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Console, Header
   }
 }
 </script>
 
-<style>
+<style lang="scss">
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  padding: 10px;
+  min-height: 100vh;
+  position: relative;
+  font-family: 'Courier new';
+  color: #00FF00;
+  background-color: black;
+
+  a:link, a:visited {
+    color: inherit;
+  }
+
+  .container {
+    max-width: 920px;
+    margin: 0 auto;
+  }
+
+  input[type=text] {
+    border: 1px solid #00FF00;
+    padding: 5px;
+    background-color: black;
+    color: #00FF00;
+    width: 100%;
+  }
+  input[type=text]:focus, input[type=text]:active {
+    border: 1px solid #00FF00;
+  }
 }
 </style>
