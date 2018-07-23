@@ -2,7 +2,7 @@
 <div class="container">
   <div class="header-container">
     <div class="title">
-      <span>Eduardo's Website</span>
+      <span>:)</span>
     </div>
 
     <ul class="menu">
