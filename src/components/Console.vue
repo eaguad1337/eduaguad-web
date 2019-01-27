@@ -2,7 +2,19 @@
 <div class="container">
   <div class="console-container">
     <div class="console-output">
-      <p>Wanna talk? eduaguad[at]gmail[dot]com</p>
+      <h2>$ Wanna talk?_</h2>
+
+      <ul>
+        <li>
+          StackOverflow: <a target="_blank" href="https://stackoverflow.com/users/2360791/eduardo-aguad">https://stackoverflow.com/users/2360791/eduardo-aguad</a>
+        </li>
+        <li>
+          LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/eduardo-aguad-076710114">https://www.linkedin.com/in/eduardo-aguad-076710114</a>
+        </li>
+        <li>
+          Email: <a href="mailto:eduaguad@gmail.com">eduaguad@gmail.com</a>
+        </li>
+      </ul>
     </div>
   </div>
   </div>
